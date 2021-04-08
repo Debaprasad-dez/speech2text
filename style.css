@@ -1,0 +1,30 @@
+body {
+  color: #f2efe2;
+}
+ 
+ 
+button:focus {
+    outline: 0;
+}
+ 
+.mycontainer {
+    margin: 0 auto;
+}
+ 
+
+ 
+#textbox {
+width: 100%;
+border: none;
+}
+ 
+@media (max-width: 768px) {
+    .mycontainer {
+        width: 85vw;
+        max-width: 85vw;
+    }
+ 
+    button {
+        margin-bottom: 10px;
+    }
+}
